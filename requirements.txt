@@ -1,0 +1,22 @@
+tensorflow
+pandas
+gdown
+dvc
+mlflow
+notebook
+numpy
+matplotlib
+seaborn
+python-box
+pyYAML
+tqdm
+ensure
+joblib
+types-pyYAML
+scipy
+Flask
+Flask-cors
+-e .  # This tells pip to install the current project as an editable local package.
+      # It looks for the setup.py file in the root directory.
+      # When installed, the package can be imported using the project name (if __init__.py is present).
+      # __init__.py acts as a constructor and indicates that the directory should be treated as a Python package.
